@@ -37,9 +37,14 @@ frame[0][1] = 'Y'
 
 # draw graph
 for x in 0..79 do
-###
 ### 分担2
-###
+  y=f(x.to_f / 80)
+  #puts y
+  y=24-y*24
+  puts y
+  frame[y][x] = '*'
+
+
 end
 
 # printout
