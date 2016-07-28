@@ -31,7 +31,11 @@ frame[23][78] = 'X'
 frame[0][1] = 'Y'
 
 # draw func
-###
+frame[0][19] = 'y='
+for x in 20..20+($func.length) do
+  frame[0][x]=$func[x-20]
+end
+
 ### 分担3
 ###
 
